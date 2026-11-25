@@ -44,18 +44,21 @@ npm run preview
 5. ブラウザの開発者ツールでエラーがない。
 6. 本番ビルドの確認URLでも同じ画面が表示される。
 
-確認後「動作確認OK」と回答してください。不具合があれば症状と操作を知らせてください。
-確認までは次の機能の開発およびコミット・プッシュを行いません。
+T01は2026-11-24にユーザーから「動作確認OK」の回答を受け、GitHubへの保存も完了しました。
+後続の各機能でも、自動テストとユーザーの手動確認後にコミット・プッシュします。
 
 ## 開発管理
 
 - [設計書の参照](docs/design.md)
-- [WBSと進捗計算](docs/wbs.md): MVP 0/24、全12ステージ 0/32。手動確認前のため0%。
+- [WBSと進捗計算](docs/wbs.md): MVP 1/24（4.2%）、全12ステージ 1/32（3.1%）。T01完了。
 - [詳細仕様・未確定事項](docs/specification.md)
 - [初回検証記録](docs/test-report-T01.md)
 - [Figma UI設計](https://www.figma.com/design/4bQWnsqd3WTRdxI21ljJ0V)
 
-GitHubリポジトリは未作成。保存先URL、ブランチ、公開範囲は未確定です。
+保存先: https://github.com/Yano-code-AIassist/SQL-QUEST （公開、main）。
+T01の実装コミット: f8ac1b726de2d5dca3cddd731fd860f436d7fe42。
+作業フォルダー: `C:\apuri\SQLゲーム`。
+次工程は [T02仕様案（未承認）](docs/T02-proposal.md) の確認です。
 各タスクは実装→自動テスト→ユーザー確認→コミット・プッシュの順で進めます。
 node_modules、dist、.env、ログなどはGit対象外です。
 
